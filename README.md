@@ -28,13 +28,19 @@ Upload, delete and download an image using Cloudinary repository. The client is 
   "nombreArchivo": "pets/hcyqmd9v1qfc5a63hq4l",
   "mensaje": "Image uploaded successful"
   }
+  ![Image uploaded successful](https://raw.githubusercontent.com/efocampo/cloudinary-springboot-example/main/upload.png)
+
    ## Download
   - GET: http://localhost:8080/api/file/download/
   - Url preview:
     - http://localhost:8080/api/file/download/?imgName=pets%2Fhcyqmd9v1qfc5a63hq4l
     - Attribute name:  imgName, Attribute value for example: pets/hcyqmd9v1qfc5a63hq4l
+  ![Image downloaded successful](https://raw.githubusercontent.com/efocampo/cloudinary-springboot-example/main/download.png)
+    #### Image on Cloudinary
+  ![Image on Cloudinary](https://raw.githubusercontent.com/efocampo/cloudinary-springboot-example/main/cloudinary.png)
    ## Delete
   - GET: http://localhost:8080/api/file/delete
   - Url preview:
     - http://localhost:8080/api/file/delete?imgName=pets%2Fhcyqmd9v1qfc5a63hq4l
     - Attribute name:  imgName, Attribute value for example: pets/hcyqmd9v1qfc5a63hq4l
+  ![Image deleted successful](https://raw.githubusercontent.com/efocampo/cloudinary-springboot-example/main/delete.png)
